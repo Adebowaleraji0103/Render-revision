@@ -78,9 +78,14 @@ const cardInfo = [
 
 function App() {
   return (
-    <div className="px-[1rem] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
-      <Toggle/>
-      {cardInfo.map((product)=><Card cardInfo = {product}/>)}
+    <div>
+      <Toggle />
+
+      <div className="px-[1rem] grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
+        {cardInfo.map((product) => (
+          <Card cardInfo={product} />
+        ))}
+      </div>
     </div>
   );
 }
