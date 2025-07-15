@@ -3,11 +3,11 @@ import { MdMenu } from "react-icons/md";
 function Toggle() {
   return (
     <div>
-        <ul>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+        <ul className="">
+            <li>Product</li>
+            <li>About us</li>
+            <li>Contact</li>
+            <li>Footer</li>
         </ul>
 
 
