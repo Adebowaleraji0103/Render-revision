@@ -2,19 +2,21 @@ import { MdMenu } from "react-icons/md";
 
 function Toggle() {
   return (
-    <div className="px-[20px] py-[10px]">
-      <div className="flex justify-between font-semibold text-[20px]">
+    <div className="px-[20px] py-[10px] flex justify-between font-semibold text-[20px]">
+      <div>
         <h2>Logo</h2>
-
-        <ul className="flex gap-[17px]">
-          <li>Product</li>
-          <li>About us</li>
-          <li>Contact</li>
-          <li>Footer</li>
-        </ul>
       </div>
 
-      <MdMenu />
+      <ul className=" gap-[17px] hidden md:flex">
+        <li>Product</li>
+        <li>About us</li>
+        <li>Contact</li>
+        <li>Footer</li>
+      </ul>
+
+      <div className="text-[30px] md:hidden">
+        <MdMenu />
+      </div>
     </div>
   );
 }
