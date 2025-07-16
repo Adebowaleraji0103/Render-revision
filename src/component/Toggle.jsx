@@ -19,7 +19,7 @@ function Toggle() {
 
       <nav>
         <ul className={` hidden gap-[17px]  md:flex flex-row ${
-            open ? "block" : "hidden
+            open ? "block" : "hidden"
           } md:flex`}>
           <li>Product</li>
           <li>About us</li>
