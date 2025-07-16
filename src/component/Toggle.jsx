@@ -22,7 +22,7 @@ function Toggle() {
             open ? "block" : "hidden"
           } md:flex`}>
           <li>Product</li>
-          <li>About us</li>
+          <li>About us</li
           <li>Contact</li>
           <li>Footer</li>
         </ul>
