@@ -14,7 +14,7 @@ function Toggle() {
       </div>
 
       <button onClick={toggleNavbar}>
-        <MdMenu className="text-[30px] md:hidden" />
+        <MdMenu className="text-[30px] md:hidden" /
       </button>
 
       <nav>
