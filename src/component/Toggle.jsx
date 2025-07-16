@@ -8,7 +8,7 @@ function Toggle() {
   }
 
   return (
-    <div className="px-[20px] py-[10px] flex justify-between font-semibold text-[20px]">
+    <div className="px-[20px] py-[10px] flex justify-between font-semibold text-[20px]>
       <div>
         <h2>Logo</h2>
       </div>
