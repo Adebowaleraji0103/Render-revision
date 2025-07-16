@@ -8,7 +8,7 @@ function Toggle() {
   }
 
   return (
-    <div className="px-[20px] py-[10px] flex justify-between font-semibold text-[20px]>
+    <div className="px-[20px] py-[10px] flex justify-between font-semibold text-[20px]">
       <div>
         <h2>Logo</h2>
       </div>
@@ -20,7 +20,7 @@ function Toggle() {
       <nav>
         <ul className={` hidden gap-[17px]  md:flex flex-row ${
             open ? "block" : "hidden"
-          } md:flex`}>
+          } md:flex`}
           <li>Product</li>
           <li>About us</li>
           <li>Contact</li>
