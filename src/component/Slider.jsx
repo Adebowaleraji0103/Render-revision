@@ -10,14 +10,16 @@ const Slider = () => {
       loop={true}
       autoplay={{ delay: 3000 }}
     >
-      <SwiperSlide><img src="/Bag.png" alt="slide 1" /></SwiperSlide>
-      <SwiperSlide><img src="/belt.png" alt="slide 2" /></SwiperSlide>
-      <SwiperSlide><img src="/canvass.png" alt="slide 3" /></SwiperSlide>
-      <SwiperSlide><img src="/Hat.png" alt="slide 3" /></SwiperSlide>
-      
+           <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
+           <SwiperSlide><img src="images/belt.png" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
+
     </Swiper>
     </div>
   );
 };
 
 export default Slider;
+      
+
