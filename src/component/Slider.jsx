@@ -12,8 +12,8 @@ const Slider = () => {
     >
            <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
            <SwiperSlide><img src="images/belt.png" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
-            <SwiperSlide><img src="images/Bag.png" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="images/canvass.png" alt="" /></SwiperSlide>
+            <SwiperSlide><img src="images/Hat.png" alt="" /></SwiperSlide>
 
     </Swiper>
     </div>
