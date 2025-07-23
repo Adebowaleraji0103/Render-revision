@@ -10,7 +10,7 @@ const Slider = () => {
         spaceBetween={2}
         slidesPerView={1}
         loop={true}
-        autoplay={{ delay: 1000, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         className="w-full"
       >
         <SwiperSlide><img src="images/Bag.png" alt="Bag" /></SwiperSlide>
