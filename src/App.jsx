@@ -1,5 +1,6 @@
 import Toggle from "./component/Toggle";
 import Card from "./component/Card";
+import Slider from "./component/Slider";
 
 const cardInfo = [
   {
@@ -86,6 +87,7 @@ function App() {
           <Card cardInfo={product} />
         ))}
       </div>
+      <Slider/>
     </div>
   );
 }
